@@ -1,6 +1,12 @@
-@mixin setFloat($direction: 'row', $justify: 'center', $align: 'center') {
+@mixin setFlex($direction: row, $justify: center, $align: center) {
   display: flex;
-  direction: $direction;
+  flex-direction: $direction;
   justify-content: $justify;
   align-items: $align;
+}
+
+@mixin setBackground($position: center, $size: cover, $repeat: no-repeat) {
+  background-position: $position;
+  background-size: $size;
+  background-repeat: $repeat;
 }

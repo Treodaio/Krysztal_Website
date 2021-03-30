@@ -1,10 +1,18 @@
+@import '../../helpers/mixins.scss';
+
 .Navigation {
   height: 100vh;
-  width: 10%;
-  border: 2px solid gold;
+  width: 15%;
+  border: 2px solid black;
+  background-color: black;
   position: fixed;
   top: 0;
-  left: -10%;
+  left: -21%;
   z-index: 1;
-  transition: .3s linear;
+  transition: .2s ease;
+  @include setFlex(column, center, center);
+
+  &_is_active {
+    left: 0;
+  }
 }

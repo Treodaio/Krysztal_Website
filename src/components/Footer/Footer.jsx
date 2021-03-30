@@ -7,7 +7,7 @@ const block = bemCssModules(FooterStyles);
 const Footer = () => {
   return (
     <footer className={block()}>
-      <p>To będzie footer</p>
+      <p>Footer</p>
     </footer>
   );
 }

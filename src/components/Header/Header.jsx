@@ -12,7 +12,10 @@ const Header = () => {
   return (
     <header className={block()}>
       <button className={block('btn_menu')} onClick={toggleNavigation}>Menu</button>
-      <p>Tutaj będzie header</p>
+      <div className={block('title')}>
+        <h1 className={block('h1')}>Kryształ</h1>
+        <h2 className={block('h2')}>Centrum szkła</h2>
+      </div>
     </header>
   );
 }

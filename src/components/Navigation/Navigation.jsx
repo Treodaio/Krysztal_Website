@@ -7,14 +7,13 @@ const block = bemCssModules(NavigationStyles);
 
 const Navigation = () => {
   const { isActive } = useContext(StoreContext);
-  console.log(isActive);
 
   return (
-    <nav className={block()}>
+    <nav className={block('', { is_active: isActive })}>
       <p><a href="#">Kontakt</a></p>
       <p><a href="#">Produkty</a></p>
       <p><a href="#">O nas</a></p>
-    </nav>
+    </nav >
   );
 }
 

@@ -7,7 +7,7 @@ const block = bemCssModules(MainStyles);
 const Main = () => {
   return (
     <main className={block()}>
-      Tutaj będzie main
+      main
     </main>
   );
 }
