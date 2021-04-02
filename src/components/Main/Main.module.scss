@@ -1,5 +1,13 @@
+@import '../../helpers/mixins.scss';
+
 .Main {
   height: 100vh;
   width: 100%;
-  border: 2px solid red;
+  @include setFlex(column, center, center);
+
+  &__title {
+    font-size: 4rem;
+    text-align: center;
+
+  }
 }

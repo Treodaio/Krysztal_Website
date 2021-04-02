@@ -7,7 +7,7 @@ const block = bemCssModules(MainStyles);
 const Main = () => {
   return (
     <main className={block()}>
-      main
+      <h3 className={block('title')}>Witaj na stronie Kryształ Podegrodzie. Oferujemy:</h3>
     </main>
   );
 }
