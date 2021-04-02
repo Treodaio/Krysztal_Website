@@ -1,13 +1,19 @@
 @import '../../helpers/mixins.scss';
 
 .Main {
-  height: 100vh;
   width: 100%;
-  @include setFlex(column, center, center);
+  background-color: #eee;
+  @include setFlex(column, start, center);
 
   &__title {
     font-size: 4rem;
+    padding: 3rem 0;
     text-align: center;
-
+    border: 2px solid red;
   }
+
+  &__offer {
+    border: 2px solid green;
+  }
+
 }
