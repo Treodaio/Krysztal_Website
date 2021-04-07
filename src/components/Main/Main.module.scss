@@ -2,18 +2,35 @@
 
 .Main {
   width: 100%;
+  height: 200vh;
   background-color: #eee;
   @include setFlex(column, start, center);
 
   &__title {
     font-size: 4rem;
     padding: 3rem 0;
+    font-style: italic;
     text-align: center;
-    border: 2px solid red;
+    flex-basis: 5%;
   }
 
-  &__offer {
-    border: 2px solid green;
+}
+
+@media (max-width: 1500px) {
+  .Main {
+    height: 250vh;
   }
 
+}
+
+@media(max-width: 1150px) {
+  .Main {
+    height: 420vh;
+  }
+}
+
+@media(max-width: 740px) {
+  .Main {
+    height: 450vh;
+  }
 }
