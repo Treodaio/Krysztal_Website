@@ -6,7 +6,7 @@
   background-color: black;
   position: fixed;
   top: 0;
-  left: -70%;
+  left: -100%;
   z-index: 1;
   transition: .3s ease-in-out;
   @include setFlex(column, center, center);
@@ -43,4 +43,16 @@
   &_is_active {
     left: 0;
   }
+
+  // @media(orientation: landscape) {
+  //   &__link-a {
+  //     font-size: 1.5rem;
+  //   }
+  // }
 }
+
+// @media(orientation: landscape) {
+//   .Navigation {
+//     justify-content: flex-end;
+//   }
+// }
