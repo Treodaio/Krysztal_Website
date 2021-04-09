@@ -2,18 +2,15 @@
 @import '../../../helpers/mixins.scss';
 
 .Offer {
-  width: 95%;
-  flex-basis: 95%;
+  width: 70%;
   transform: translateY(0);
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   grid-auto-rows: 350px;
   gap: 1rem;
-  justify-items: center;
+  justify-content: center;
 
   &__single-offer {
-    max-height: 500px;
-    max-width: 500px;
     @include setFlex(column, center, stretch);
     background-color: #fff;
     border: 1px solid #aaa;

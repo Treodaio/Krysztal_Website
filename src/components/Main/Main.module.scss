@@ -2,35 +2,13 @@
 
 .Main {
   width: 100%;
-  height: 200vh;
-  background-color: #eee;
   @include setFlex(column, start, center);
+  background-color: whitesmoke;
 
   &__title {
     font-size: 4rem;
     padding: 3rem 0;
     font-style: italic;
     text-align: center;
-    flex-basis: 5%;
-  }
-
-}
-
-@media (max-width: 1500px) {
-  .Main {
-    height: 250vh;
-  }
-
-}
-
-@media(max-width: 1150px) {
-  .Main {
-    height: 420vh;
-  }
-}
-
-@media(max-width: 740px) {
-  .Main {
-    height: 450vh;
   }
 }
