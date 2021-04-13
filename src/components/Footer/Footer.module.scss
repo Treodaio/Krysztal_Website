@@ -1,8 +1,60 @@
+@import '../../helpers/variables.scss';
+@import '../../helpers/mixins.scss';
+
 .Footer {
-  padding: 10px;
-  text-align: center;
+  background-color: #252525;
+  // color: #898989;
+  color: silver;
+  padding: 5rem;
   width: 100%;
-  height: 30vh;
-  border: 2px solid yellow;
-  font-size: 4rem;
+  font-size: calc(1rem + 2vmin);
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-auto-rows: max-content;
+
+  &__social {
+    text-align: center;
+    @include setFlex(row, center, center);
+    flex-wrap: wrap;
+
+
+    &__title {
+      text-transform: uppercase;
+      flex-basis: 100%;
+    }
+  }
+
+  &__extra_info {
+    @include setFlex(column, center, left);
+    flex-wrap: wrap;
+  }
+
+  &__create_by {
+    @include setFlex(column, center, center);
+  }
+
+
+  &__icon {
+    padding: 1rem;
+    color: silver;
+    font-size: calc(2rem + 10vmin);
+    transition: .3s;
+  }
+
+  &__icon:hover {
+    color: white;
+  }
+
+  &__p {
+    padding: 1rem;
+  }
+
+  &__a {
+    text-decoration: none;
+  }
+
+  &__a:visited {
+    color: gold;
+  }
+
 }
