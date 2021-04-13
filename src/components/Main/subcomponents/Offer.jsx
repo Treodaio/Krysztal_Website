@@ -24,7 +24,7 @@ const block = bemCssModules(OfferStyles);
 const Offer = () => {
   return (
     <section className={block()}>
-      <a className={block('single-offer')} href="#">
+      <a className={block('single-offer')} href=".">
         <div className={block('image-wrapper')}>
           <img className={block('image')} src={processing} alt="glass processing" />
         </div>
@@ -33,7 +33,7 @@ const Offer = () => {
         </div>
       </a>
 
-      <a className={block('single-offer')} href="#">
+      <a className={block('single-offer')} href=".">
         <div className={block('image-wrapper')}>
           <img className={block('image')} src={glass_door} alt="Drzwi, przeszklenia, kabiny szklane" />
         </div>
@@ -42,7 +42,7 @@ const Offer = () => {
         </div>
       </a>
 
-      <a className={block('single-offer')} href="#">
+      <a className={block('single-offer')} href=".">
         <div className={block('image-wrapper')}>
           <img className={block('image')} src={glass_stairs} alt="Balustrady, schody i podłogi ze szkła" />
         </div>
@@ -51,7 +51,7 @@ const Offer = () => {
         </div>
       </a>
 
-      <a className={block('single-offer')} href="#">
+      <a className={block('single-offer')} href=".">
         <div className={block('image-wrapper')}>
           <img className={block('image')} src={glass_resin_stained} alt="Witraże żywicowe" />
         </div>
@@ -60,7 +60,7 @@ const Offer = () => {
         </div>
       </a>
 
-      <a className={block('single-offer')} href="#">
+      <a className={block('single-offer')} href=".">
         <div className={block('image-wrapper')}>
           <img className={block('image')} src={glass_graphic} alt="Szkło do Twojego wnętrza" />
         </div>
@@ -69,7 +69,7 @@ const Offer = () => {
         </div>
       </a>
 
-      <a className={block('single-offer')} href="#">
+      <a className={block('single-offer')} href=".">
         <div className={block('image-wrapper')}>
           <img className={block('image')} src={glass_wholesale} alt="Hurtowa sprzedaż szkła" />
         </div>
@@ -78,7 +78,7 @@ const Offer = () => {
         </div>
       </a>
 
-      <a className={block('single-offer')} href="#">
+      <a className={block('single-offer')} href=".">
         <div className={block('image-wrapper')}>
           <img className={block('image')} src={glass_mirror} alt="Lustra i akcesoria" />
         </div>
@@ -87,7 +87,7 @@ const Offer = () => {
         </div>
       </a>
 
-      <a className={block('single-offer')} href="#">
+      <a className={block('single-offer')} href=".">
         <div className={block('image-wrapper')}>
           <img className={block('image')} src={glass_ferrule} alt="Okucia do szkła firmy CDA" />
         </div>
@@ -96,7 +96,7 @@ const Offer = () => {
         </div>
       </a>
 
-      <a className={block('single-offer')} href="#">
+      <a className={block('single-offer')} href=".">
         <div className={block('image-wrapper')}>
           <img className={block('image')} src={glass_roofs} alt="Daszki i zabudowa balkonów" />
         </div>
@@ -105,7 +105,7 @@ const Offer = () => {
         </div>
       </a>
 
-      <a className={block('single-offer')} href="#">
+      <a className={block('single-offer')} href=".">
         <div className={block('image-wrapper')}>
           <img className={block('image')} src={glass_compared} alt="Szyby zespolone" />
         </div>
@@ -114,7 +114,7 @@ const Offer = () => {
         </div>
       </a>
 
-      <a className={block('single-offer')} href="#">
+      <a className={block('single-offer')} href=".">
         <div className={block('image-wrapper')}>
           <img className={block('image')} src={pictures_framing} alt="Oprawa obrazów" />
         </div>
@@ -123,7 +123,7 @@ const Offer = () => {
         </div>
       </a>
 
-      <a className={block('single-offer')} href="#">
+      <a className={block('single-offer')} href=".">
         <div className={block('image-wrapper')}>
           <img className={block('image')} src={machines} alt="Maszyny i żywice do produkcji witraży" />
         </div>
@@ -132,7 +132,7 @@ const Offer = () => {
         </div>
       </a>
 
-      <a className={block('single-offer')} href="#">
+      <a className={block('single-offer')} href=".">
         <div className={block('image-wrapper')}>
           <img className={block('image')} src={glass_painted} alt="Farby do szkła i profili - eksport" />
         </div>
@@ -141,7 +141,7 @@ const Offer = () => {
         </div>
       </a>
 
-      <a className={block('single-offer')} href="#">
+      <a className={block('single-offer')} href=".">
         <div className={block('image-wrapper')}>
           <img className={block('image')} src={glass_nano} alt="Nanotechnologia" />
         </div>
@@ -150,7 +150,7 @@ const Offer = () => {
         </div>
       </a>
 
-      <a className={block('single-offer')} href="#">
+      <a className={block('single-offer')} href=".">
         <div className={block('image-wrapper')}>
           <img className={block('image')} src={glass_others} alt="Inne produkty" />
         </div>

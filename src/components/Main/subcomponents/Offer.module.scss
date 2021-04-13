@@ -2,12 +2,12 @@
 @import '../../../helpers/mixins.scss';
 
 .Offer {
-  width: 70%;
-  transform: translateY(0);
+  width: 78%;
+
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   grid-auto-rows: 350px;
-  gap: 1rem;
+  gap: 4rem;
   justify-content: center;
 
   &__single-offer {
@@ -16,6 +16,7 @@
     border: 1px solid #aaa;
     text-decoration: none;
     overflow: hidden;
+    transition: linear .1s;
   }
 
   &__image-wrapper {
@@ -43,6 +44,10 @@
     color: $text-color;
     font-size: 2.2rem;
     font-style: italic;
+  }
+
+  &__single-offer:hover {
+    border-color: black;
   }
 
   &__single-offer:hover &__description {

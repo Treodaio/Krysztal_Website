@@ -17,35 +17,36 @@ const Navigation = () => {
 
   return (
     <nav className={block('', { is_active: isActive })}>
-      <p className={block('label')}>
+
+      <a className={block('label')} href=".">
         <HiPhone className={block('icon')} />
-        <a className={block('link-a')} href="#">Kontakt</a>
-      </p>
+        <p className={block('link-a')}>Kontakt</p>
+      </a>
 
-      <p className={block('label')}>
+      <a className={block('label')} href=".">
         <BiCartAlt className={block('icon')} />
-        <a className={block('link-a')} href="#">Produkty i usługi</a>
-      </p>
+        <p className={block('link-a')}>Produkty i usługi</p>
+      </a>
 
-      <p className={block('label')}>
+      <a className={block('label')} href=".">
         <BiInfoCircle className={block('icon')} />
-        <a className={block('link-a')} href="#">O nas</a>
-      </p>
+        <p className={block('link-a')} >O nas</p>
+      </a>
 
-      <p className={block('label')}>
+      <a className={block('label')} href=".">
         <BiImages className={block('icon')} />
-        <a className={block('link-a')} href="#">Galeria</a>
-      </p>
+        <p className={block('link-a')} >Galeria</p>
+      </a>
 
-      <p className={block('label')}>
+      <a className={block('label')} href=".">
         <BiBuildingHouse className={block('icon')} />
-        <a className={block('link-a')} href="#">Domy na sprzedaż</a>
-      </p>
+        <p className={block('link-a')}>Domy na sprzedaż</p>
+      </a>
 
-      <p className={block('label')}>
+      <a className={block('label')} href=".">
         <BiShoppingBag className={block('icon')} />
-        <a className={block('link-a')} href="#">E-sklep</a>
-      </p>
+        <p className={block('link-a')}>E-sklep</p>
+      </a>
 
     </nav >
   );
