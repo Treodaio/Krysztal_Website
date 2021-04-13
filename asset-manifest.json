@@ -1,0 +1,36 @@
+{
+  "files": {
+    "main.css": "/Krysztal_Website/static/css/main.611b860f.chunk.css",
+    "main.js": "/Krysztal_Website/static/js/main.7e099976.chunk.js",
+    "main.js.map": "/Krysztal_Website/static/js/main.7e099976.chunk.js.map",
+    "runtime-main.js": "/Krysztal_Website/static/js/runtime-main.a6b08431.js",
+    "runtime-main.js.map": "/Krysztal_Website/static/js/runtime-main.a6b08431.js.map",
+    "static/js/2.b68cde5b.chunk.js": "/Krysztal_Website/static/js/2.b68cde5b.chunk.js",
+    "static/js/2.b68cde5b.chunk.js.map": "/Krysztal_Website/static/js/2.b68cde5b.chunk.js.map",
+    "index.html": "/Krysztal_Website/index.html",
+    "static/css/main.611b860f.chunk.css.map": "/Krysztal_Website/static/css/main.611b860f.chunk.css.map",
+    "static/js/2.b68cde5b.chunk.js.LICENSE.txt": "/Krysztal_Website/static/js/2.b68cde5b.chunk.js.LICENSE.txt",
+    "static/media/glass_compared.59bbd366.JPG": "/Krysztal_Website/static/media/glass_compared.59bbd366.JPG",
+    "static/media/glass_door.12c4944e.JPG": "/Krysztal_Website/static/media/glass_door.12c4944e.JPG",
+    "static/media/glass_ferrule.f43d858f.JPG": "/Krysztal_Website/static/media/glass_ferrule.f43d858f.JPG",
+    "static/media/glass_graphic.453d0fdf.JPG": "/Krysztal_Website/static/media/glass_graphic.453d0fdf.JPG",
+    "static/media/glass_mirror.64f81b0c.JPG": "/Krysztal_Website/static/media/glass_mirror.64f81b0c.JPG",
+    "static/media/glass_nano.c1d39a1a.JPG": "/Krysztal_Website/static/media/glass_nano.c1d39a1a.JPG",
+    "static/media/glass_others.e4693660.JPG": "/Krysztal_Website/static/media/glass_others.e4693660.JPG",
+    "static/media/glass_painted.4b09f2b9.JPG": "/Krysztal_Website/static/media/glass_painted.4b09f2b9.JPG",
+    "static/media/glass_resin_stained.29cc4c2b.JPG": "/Krysztal_Website/static/media/glass_resin_stained.29cc4c2b.JPG",
+    "static/media/glass_roofs.5dbcfd9c.JPG": "/Krysztal_Website/static/media/glass_roofs.5dbcfd9c.JPG",
+    "static/media/glass_stairs.50a7e783.JPG": "/Krysztal_Website/static/media/glass_stairs.50a7e783.JPG",
+    "static/media/glass_wholesale.7f6621d3.JPG": "/Krysztal_Website/static/media/glass_wholesale.7f6621d3.JPG",
+    "static/media/Header.module.scss": "/Krysztal_Website/static/media/header-theme.075a9cb3.jpg",
+    "static/media/machines.51d64c8c.JPG": "/Krysztal_Website/static/media/machines.51d64c8c.JPG",
+    "static/media/pictures_framing.7a0382b2.JPG": "/Krysztal_Website/static/media/pictures_framing.7a0382b2.JPG",
+    "static/media/processing.bcdd6e46.JPG": "/Krysztal_Website/static/media/processing.bcdd6e46.JPG"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.a6b08431.js",
+    "static/js/2.b68cde5b.chunk.js",
+    "static/css/main.611b860f.chunk.css",
+    "static/js/main.7e099976.chunk.js"
+  ]
+}
