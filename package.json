@@ -2,7 +2,7 @@
   "name": "projekt_krysztal",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://Treodaio.github.io/Krysztal_Website",
+  "homepage": "https://treodaio.github.io/Krysztal_Website/",
   "dependencies": {
     "@testing-library/jest-dom": "^5.11.10",
     "@testing-library/react": "^11.2.5",

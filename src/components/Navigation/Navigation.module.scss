@@ -14,8 +14,7 @@
   align-content: center;
 
   &__label {
-
-    color: silver;
+    color: white;
     text-decoration: none;
     transform: translateX(0);
     transition: .1s;
@@ -32,11 +31,13 @@
     margin-right: 1rem;
   }
 
-  &__link-a {
-    font-size: calc(1rem + 2vmin);
+  &__link {
+    font-size: calc(1rem + 3vmin);
+    text-decoration: none;
+    color: silver;
   }
 
-  &__link-a:hover {
+  &__link:hover {
     color: white;
   }
 

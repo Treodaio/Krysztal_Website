@@ -2,8 +2,8 @@
 
 .Main {
   width: 100%;
-  @include setFlex(column, start, center);
-  background-color: whitesmoke;
+  @include setFlex(column, flex-start, center);
+  background-color: white;
 
   &__title {
     font-size: 4rem;

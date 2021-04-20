@@ -5,7 +5,13 @@ import { FaShoppingCart } from "react-icons/fa";
 
 import bemCssModules from 'bem-css-modules';
 import { default as FooterStyles } from './Footer.module.scss';
+import { Link } from 'react-router-dom';
 const block = bemCssModules(FooterStyles);
+
+const facebook = "https://www.facebook.com/krysztal.szklo";
+const allegro = "https://allegro.pl/uzytkownik/Krysztal_Szklo?bmatch=cl-e2101-d3681-c3682-uni-1-4-0319";
+const youtube = "https://www.youtube.com/channel/UC4vIjhmPZlTB89xZx08A_3w";
+const authorLinkedIn = "https://www.linkedin.com/in/slawomir-pietrzak/";
 
 const Footer = () => {
   return (
@@ -13,24 +19,21 @@ const Footer = () => {
 
       <section className={block('social')}>
         <p className={block('social__title')}>Znajdź nas na: </p>
-        <a className={block('a')}
-          href="https://www.facebook.com/krysztal.szklo">
+        <a className={block('a')} target="_blank" rel="noopener noreferrer" href={facebook}>
           <FaFacebookSquare className={block('icon')} />
         </a>
-        <a className={block('a')}
-          href="https://www.youtube.com/channel/UC4vIjhmPZlTB89xZx08A_3w">
+        <a className={block('a')} target="_blank" rel="noreferrer" href={youtube}>
           <FaYoutube className={block('icon')} />
         </a>
-        <a className={block('a')}
-          href="https://allegro.pl/uzytkownik/Krysztal_Szklo?bmatch=cl-e2101-d3681-c3682-uni-1-4-0319">
+        <a className={block('a')} target="_blank" rel="noreferrer" href={allegro}>
           <FaShoppingCart className={block('icon')} />
         </a>
       </section>
 
       <section className={block('extra_info')}>
-        <a className={block('a')} href=".">
+        <Link className={block('a')} to="/contact">
           <p className={block('p')}>Kontakt</p>
-        </a>
+        </Link>
 
         <a className={block('a')} href=".">
           <p className={block('p')}>Polityka prywatności i sprzedaży</p>
@@ -41,8 +44,9 @@ const Footer = () => {
         </a>
 
       </section>
+
       <section className={block('create_by')}>
-        <p className={block('p')}>Page was created by: <a className={block('a')} href="https://www.linkedin.com/in/slawomir-pietrzak/">Treodaio</a></p>
+        <p className={block('p')}>Page was created by: <a className={block('a')} href={authorLinkedIn}>Treodaio</a></p>
       </section>
     </footer>
   );

@@ -2,8 +2,7 @@
 @import '../../helpers/mixins.scss';
 
 .Footer {
-  background-color: #252525;
-  // color: #898989;
+  background-color: #4A4063;
   color: silver;
   padding: 5rem;
   width: 100%;
@@ -42,7 +41,7 @@
   }
 
   &__icon:hover {
-    color: white;
+    color: red;
   }
 
   &__p {
@@ -50,11 +49,16 @@
   }
 
   &__a {
+    transition: .3s;
     text-decoration: none;
   }
 
   &__a:visited {
-    color: gold;
+    color: white;
+  }
+
+  &__a:hover {
+    color: red;
   }
 
 }

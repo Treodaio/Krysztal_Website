@@ -1,53 +1,45 @@
 import React, { useContext } from 'react';
 import { StoreContext } from '../../store/StoreProvider';
+import { NavLink } from 'react-router-dom';
 
 import { HiPhone } from 'react-icons/hi';
-import { BiCartAlt } from "react-icons/bi";
-import { BiInfoCircle } from "react-icons/bi";
-import { BiImages } from "react-icons/bi";
-import { BiBuildingHouse } from "react-icons/bi";
-import { BiShoppingBag } from "react-icons/bi";
+import {
+  BiCartAlt,
+  BiInfoCircle, BiImages, BiBuildingHouse, BiShoppingBag
+} from "react-icons/bi";
+
 
 import bemCssModules from 'bem-css-modules';
 import { default as NavigationStyles } from './Navigation.module.scss';
 const block = bemCssModules(NavigationStyles);
 
+const list = [
+  { name: 'Kontakt', path: '/kontakt', icon: <HiPhone className={block('icon')} />, },
+  { name: 'Oferta', path: '/oferta', icon: <BiCartAlt className={block('icon')} />, },
+  { name: 'O nas', path: '/onas', icon: <BiInfoCircle className={block('icon')} />, },
+  { name: 'Galeria', path: '/galeria', icon: <BiImages className={block('icon')} />, },
+  { name: 'Domy na sprzedaż', path: '/domy', icon: <BiBuildingHouse className={block('icon')} />, },
+  { name: 'E-sklep', path: '/sklep', icon: <BiShoppingBag className={block('icon')} />, },
+];
+
 const Navigation = () => {
   const { isActive } = useContext(StoreContext);
 
+  const menu = list.map(item => (
+    <li key={item.name} className={block('label')}>
+      {item.icon ? item.icon : null}
+      <NavLink
+        exact={item.exact ? item.exact : null}
+        to={item.path}
+        className={block('link')}>
+        {item.name}
+      </NavLink>
+    </li>
+  ))
+
   return (
     <nav className={block('', { is_active: isActive })}>
-
-      <a className={block('label')} href=".">
-        <HiPhone className={block('icon')} />
-        <p className={block('link-a')}>Kontakt</p>
-      </a>
-
-      <a className={block('label')} href=".">
-        <BiCartAlt className={block('icon')} />
-        <p className={block('link-a')}>Produkty i usługi</p>
-      </a>
-
-      <a className={block('label')} href=".">
-        <BiInfoCircle className={block('icon')} />
-        <p className={block('link-a')} >O nas</p>
-      </a>
-
-      <a className={block('label')} href=".">
-        <BiImages className={block('icon')} />
-        <p className={block('link-a')} >Galeria</p>
-      </a>
-
-      <a className={block('label')} href=".">
-        <BiBuildingHouse className={block('icon')} />
-        <p className={block('link-a')}>Domy na sprzedaż</p>
-      </a>
-
-      <a className={block('label')} href=".">
-        <BiShoppingBag className={block('icon')} />
-        <p className={block('link-a')}>E-sklep</p>
-      </a>
-
+      {menu}
     </nav >
   );
 }
