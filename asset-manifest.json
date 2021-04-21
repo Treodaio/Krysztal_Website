@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/Krysztal_Website/static/css/main.611b860f.chunk.css",
-    "main.js": "/Krysztal_Website/static/js/main.7e099976.chunk.js",
-    "main.js.map": "/Krysztal_Website/static/js/main.7e099976.chunk.js.map",
+    "main.css": "/Krysztal_Website/static/css/main.5c80d4ef.chunk.css",
+    "main.js": "/Krysztal_Website/static/js/main.cac7fdb0.chunk.js",
+    "main.js.map": "/Krysztal_Website/static/js/main.cac7fdb0.chunk.js.map",
     "runtime-main.js": "/Krysztal_Website/static/js/runtime-main.a6b08431.js",
     "runtime-main.js.map": "/Krysztal_Website/static/js/runtime-main.a6b08431.js.map",
-    "static/js/2.b68cde5b.chunk.js": "/Krysztal_Website/static/js/2.b68cde5b.chunk.js",
-    "static/js/2.b68cde5b.chunk.js.map": "/Krysztal_Website/static/js/2.b68cde5b.chunk.js.map",
+    "static/js/2.fea8cc3d.chunk.js": "/Krysztal_Website/static/js/2.fea8cc3d.chunk.js",
+    "static/js/2.fea8cc3d.chunk.js.map": "/Krysztal_Website/static/js/2.fea8cc3d.chunk.js.map",
     "index.html": "/Krysztal_Website/index.html",
-    "static/css/main.611b860f.chunk.css.map": "/Krysztal_Website/static/css/main.611b860f.chunk.css.map",
-    "static/js/2.b68cde5b.chunk.js.LICENSE.txt": "/Krysztal_Website/static/js/2.b68cde5b.chunk.js.LICENSE.txt",
+    "static/css/main.5c80d4ef.chunk.css.map": "/Krysztal_Website/static/css/main.5c80d4ef.chunk.css.map",
+    "static/js/2.fea8cc3d.chunk.js.LICENSE.txt": "/Krysztal_Website/static/js/2.fea8cc3d.chunk.js.LICENSE.txt",
     "static/media/glass_compared.59bbd366.JPG": "/Krysztal_Website/static/media/glass_compared.59bbd366.JPG",
     "static/media/glass_door.12c4944e.JPG": "/Krysztal_Website/static/media/glass_door.12c4944e.JPG",
     "static/media/glass_ferrule.f43d858f.JPG": "/Krysztal_Website/static/media/glass_ferrule.f43d858f.JPG",
@@ -29,8 +29,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.a6b08431.js",
-    "static/js/2.b68cde5b.chunk.js",
-    "static/css/main.611b860f.chunk.css",
-    "static/js/main.7e099976.chunk.js"
+    "static/js/2.fea8cc3d.chunk.js",
+    "static/css/main.5c80d4ef.chunk.css",
+    "static/js/main.cac7fdb0.chunk.js"
   ]
 }
