@@ -42,7 +42,7 @@ const offerList = [
 
 const Offer = () => {
   const offerItems = offerList.map(item => (
-    <Link className={block('single-offer')}>
+    <Link key={item.name} className={block('single-offer')} to={item.path}>
       <div className={block('image-wrapper')}>
         <img className={block('image')} src={item.img} alt={item.name} />
       </div>

@@ -1,11 +1,12 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
+
 import { FaFacebookSquare } from "react-icons/fa";
 import { FaYoutube } from "react-icons/fa";
 import { FaShoppingCart } from "react-icons/fa";
 
 import bemCssModules from 'bem-css-modules';
 import { default as FooterStyles } from './Footer.module.scss';
-import { Link } from 'react-router-dom';
 const block = bemCssModules(FooterStyles);
 
 const facebook = "https://www.facebook.com/krysztal.szklo";
@@ -31,7 +32,7 @@ const Footer = () => {
       </section>
 
       <section className={block('extra_info')}>
-        <Link className={block('a')} to="/contact">
+        <Link className={block('a')} to="/kontakt">
           <p className={block('p')}>Kontakt</p>
         </Link>
 

@@ -12,6 +12,7 @@
   grid-auto-rows: max-content;
 
   &__social {
+    color: white;
     text-align: center;
     @include setFlex(row, center, center);
     flex-wrap: wrap;
@@ -30,6 +31,7 @@
 
   &__create_by {
     @include setFlex(column, center, center);
+    color: white;
   }
 
 
@@ -54,7 +56,7 @@
   }
 
   &__a:visited {
-    color: white;
+    color: silver;
   }
 
   &__a:hover {

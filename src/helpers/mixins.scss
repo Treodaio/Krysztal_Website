@@ -10,3 +10,10 @@
   background-size: $size;
   background-repeat: $repeat;
 }
+
+@mixin setTitle($fsize: 4rem, $psize: 3rem, $fs: italic) {
+  font-size: $fsize;
+  padding: $psize 0;
+  font-style: $fs;
+  text-align: center;
+}
