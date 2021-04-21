@@ -12,7 +12,7 @@ const block = bemCssModules(AppStyles);
 
 function App() {
   return (
-    <Router>
+    <Router basename={process.env.PUBLIC_URL}>
       <StoreProvider>
         <div className={block()}>
           <Header />
