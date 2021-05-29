@@ -1,8 +1,7 @@
 # Kryształ - React Website 
 
 ## General
-This project is create for Kryształ Company. Currently you can find 
-site [here.](http://www.krysztal.pl/)
+This project is create for sample Company.
 
 For me it's great chance to use skills learned through college and courses.
 
@@ -34,6 +33,12 @@ Start dev version using
 $npm start
 ```
 
+##Future Updates
+in the future, the project will be extended by: 
+* prop-types libray - static type props
+* react-redux - to state management 
+* json-serwer - which will allow me to create communication with database.
+* better images import to Offer section.
 
 
 
